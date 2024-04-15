@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    justify-content:center ;
+    margin-top: 50px;
+}
+.container-form {
+    display: inline-flex;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    width: 400px;
+    color: #FEFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    margin-top: 65px;
+    margin-left: 65px;
+    cursor: text;
+}
+.red {
+    background: #BE0909;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.25);
+    width: 609px;
+    height: 594px;
+    flex-shrink: 0;
+}
+.yellow {
+    width: 345px;
+    height: 594px;
+    flex-shrink: 0;
+    background: #FFB039;
+}
+.button {
+    width: 202px;
+    height: 48px;
+    flex-shrink: 0;
+    align-self: center;
+    margin-top: 56px;
+    border: none;
+    color: white;
+    border-radius: 40px;
+    background-color: #468189;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.50);
+}
+.button:disabled {
+    background-color: #BE0909;
+    opacity: 0.6;
+}
+.button:hover {
+    background-color: #FFB039;
+}
+#regarding, #message, #email, #name {
+    background-color: #BE0909;
+    
+}
+#duck {
+    width: 663px;
+    height: 603px;
+    flex-shrink: 0;
+    position: relative;
+    right: 267px;
+}
+.input-field, .textarea {
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+}
+#name:hover, #message:hover, #regarding:hover, #email:hover {
+    background-color: #FFB039;
+    opacity: 0.7;
+}
+::placeholder {
+    color: #FEFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    letter-spacing: 5.4px;
+}
